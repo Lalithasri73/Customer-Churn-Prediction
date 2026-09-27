@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/HP/Desktop/customer_churn_prediction/mlruns/1/models/m-ac48900a50504290884050c1cd36f2b4/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.7.0
+model_id: m-ac48900a50504290884050c1cd36f2b4
+model_size_bytes: 11054147
+model_uuid: m-ac48900a50504290884050c1cd36f2b4
+prompts: null
+run_id: 2ed2e153b45c4c7394f57cb6031e2b24
+utc_time_created: '2025-12-15 22:45:09.390040'
